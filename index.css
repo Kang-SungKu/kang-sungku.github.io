@@ -46,6 +46,10 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #fff;
+
+  -webkit-transition: transform 0.45s cubic-bezier(0, 0, 0.21, 1);
+  transition: transform 0.45s cubic-bezier(0, 0, 0.21, 1);
+   
 }
 
 .about-section {
@@ -53,6 +57,10 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #eee;
+
+  -webkit-transition: transform 0.45s cubic-bezier(0, 0, 0.21, 1);
+  transition: transform 0.45s cubic-bezier(0, 0, 0.21, 1);
+   
 }
 
 .services-section {
@@ -60,6 +68,10 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #fff;
+
+  -webkit-transition: transform 0.45s cubic-bezier(0, 0, 0.21, 1);
+  transition: transform 0.45s cubic-bezier(0, 0, 0.21, 1);
+   
 }
 
 .contact-section {
@@ -67,6 +79,10 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #eee;
+
+  -webkit-transition: transform 0.45s cubic-bezier(0, 0, 0.21, 1);
+  transition: transform 0.45s cubic-bezier(0, 0, 0.21, 1);
+   
 }
 
 
