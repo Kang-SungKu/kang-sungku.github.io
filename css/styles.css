@@ -10836,4 +10836,9 @@ header {
 section {
   padding-top: 9rem;
   padding-bottom: 9rem;
+  
+  transition-property: opacity, visibility;
+  transition-duration: 0.5s;
+  transition-delay: -0.1s;
+  transition-timing-function: ease-in-out;
 }
