@@ -311,15 +311,18 @@ svg {
 
 .square-img {
   width: 100%;
-  height: auto;
   aspect-ratio: 1 / 1;  /* defining the aspect ratio of the image */
-  object-fit: cover;    /* making sure the image isn't distorted */
+  /* height: auto; */
+  /* object-fit: cover;    making sure the image isn't distorted */
 }
 
 .square-img img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
+    /* flex-shrink: 0; */
+    height: 100%;
+    width: 100%;
+  
+    /* min-width: 100%; */
+    /* min-height: 100% */
 }
 
 table {
