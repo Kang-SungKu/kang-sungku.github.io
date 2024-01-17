@@ -316,6 +316,12 @@ svg {
   object-fit: cover;    /* making sure the image isn't distorted */
 }
 
+.square-img img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
 table {
   caption-side: bottom;
   border-collapse: collapse;
