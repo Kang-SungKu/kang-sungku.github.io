@@ -310,8 +310,8 @@ svg {
 }
 
 .square-img {
-  width: 100%;
-  aspect-ratio: 1 / 1;  /* defining the aspect ratio of the image */
+  width: 00%;
+  aspect-ratio: 5 / 4;  /* defining the aspect ratio of the image */
   /* height: auto; */
   /* object-fit: cover;    making sure the image isn't distorted */
 }
@@ -319,7 +319,7 @@ svg {
 .square-img img {
     /* flex-shrink: 0; */
     height: 100%;
-    aspect-ratio: 1 / 1;  /* defining the aspect ratio of the image */
+    aspect-ratio: 5 / 4;  /* defining the aspect ratio of the image */
     /* width: 100%; */
     /* min-width: 100%; */
     /* min-height: 100% */
