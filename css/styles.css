@@ -306,6 +306,13 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  
+}
+
+.testtest img {
+  width: 100%;
+  aspect-ratio: 1 / 1;  /* defining the aspect ratio of the image */
+  object-fit: cover;    /* making sure the image isn't distorted */
 }
 
 table {
