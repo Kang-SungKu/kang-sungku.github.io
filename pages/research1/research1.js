@@ -1,3 +1,7 @@
+let lastKnownScrollPosition = 0;
+let deltaY = 0;
+
+
 window.context = function( container ) {
 
 	// Dispatched when the current layer changes
@@ -191,4 +195,9 @@ k.changed.add( function( layer, index ) {
 document.addEventListener( 'keyup', function( event ) {
 	if( event.keyCode === 37 ) k.prev();
 	if( event.keyCode === 39 ) k.next();
+}, false );
+
+document.addEventListener( 'wheel', function( event ) {
+	if( event.deltaY < 0 ) k.prev();
+	if( event.deltaY > 0 ) k.next();
 }, false );
