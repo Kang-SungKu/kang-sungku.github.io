@@ -35,7 +35,10 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 function toggleBib(event) {
-    var x = document.getElementById(event.name);
+    console.log(event);
+
+    var x = document.getElementById(event.href);
+    console.log(event.href);
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {

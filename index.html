@@ -14,9 +14,10 @@
     <link href="css/styles.css" rel="stylesheet" />
 
     <!-- Importing JS -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
 
     <!-- Other data -->
@@ -341,9 +342,17 @@
                                         <span class="if month"><span class="month"></span>,</span>
                                         <span class="if year"><span class="year"></span>.</span>
                                         <span class="if note"><span class="note"></span>.</span>
-                                        <button onclick="toggleBib(this)" name="bib+BIBTEXKEY+">Click Me</button>
+                                        <!--a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+"
+                                           aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+                                            [bib]
+                                        </a-->
                                     </div>
-                                    <div id="bib+BIBTEXKEY+" style="display:none"><span class="bibtexraw"></span></div>
+                                    <!--div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+                                        <div class="well">
+                                            <pre><span class="bibtexraw noread"></span></pre>
+                                        </div>
+                                    </div-->
+                 
                                     <div style="display:none"><span class="bibtextype"></span></div>
                                     <div style="display:none"><span class="if topic"><span class="topic"></span></span>
                                     </div>
