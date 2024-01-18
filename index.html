@@ -341,19 +341,9 @@
                                         <span class="if month"><span class="month"></span>,</span>
                                         <span class="if year"><span class="year"></span>.</span>
                                         <span class="if note"><span class="note"></span>.</span>
-                                        <!--a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+"-->
-                                        <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+"
-                                            aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                                            [bib]
-                                        </a>
+                                        <button onclick="toggleBib(this)" name="bib+BIBTEXKEY+">Click Me</button>
                                     </div>
-
-                                    <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                                        <div class="well">
-                                            <pre><span class="bibtexraw noread"></span></pre>
-                                        </div>
-                                    </div>
-                                    
+                                    <div id="bib+BIBTEXKEY+" style="display:none"><span class="bibtexraw"></span></div>
                                     <div style="display:none"><span class="bibtextype"></span></div>
                                     <div style="display:none"><span class="if topic"><span class="topic"></span></span>
                                     </div>
