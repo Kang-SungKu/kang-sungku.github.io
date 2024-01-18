@@ -346,12 +346,13 @@ svg {
  
 /* (C) ONLY SHOW CAPTION ON HOVER */
 .topic-hover {
-  visibility: none; opacity: 0;
+  visibility: none;
+  opacity: 0;
   transition: opacity 0.3s;
 }
 
 /* (C) ONLY SHOW CAPTION ON HOVER */
-.topic-img:hover topic-hover {
+.topic-img:hover .topic-hover {
   visibility: visible;
   opacity: 1;
 }
