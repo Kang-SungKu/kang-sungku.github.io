@@ -1,3 +1,6 @@
+let touchstartX = 0
+let touchendX = 0
+
 let lastKnownScrollPosition = 0;
 let deltaY = 0;
 
@@ -198,6 +201,37 @@ document.addEventListener( 'keyup', function( event ) {
 }, false );
 
 document.addEventListener( 'wheel', function( event ) {
-	if( event.deltaY < 0 ) k.prev();
-	if( event.deltaY > 0 ) k.next();
+	if( event.deltaY < 0 ) {
+		k.prev();
+	}
+	if( event.deltaY > 0 ) {
+		k.next();
+	}
 }, false );
+
+
+document.addEventListener( 'touchstart', function( event ) {
+	touchstartX = e.changedTouches[0].screenX
+}, false );
+
+
+document.addEventListener( 'touchend', function( event ) {
+	touchendX = e.changedTouches[0].screenX
+	if (touchendX < touchstartX) {
+		k.prev();
+	}
+	if (touchendX > touchstartX) {
+		k.next();
+	}
+}, false );
+
+
+document.addEventListener('touchstart', e => {
+	touchstartX = e.changedTouches[0].screenX
+  })
+  
+  document.addEventListener('touchend', e => {
+	touchendX = e.changedTouches[0].screenX
+	checkDirection()
+  })
+  
