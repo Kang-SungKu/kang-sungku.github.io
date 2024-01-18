@@ -1,10 +1,6 @@
 let touchstartX = 0
 let touchendX = 0
 
-let lastKnownScrollPosition = 0;
-let deltaY = 0;
-
-
 window.context = function( container ) {
 
 	// Dispatched when the current layer changes
@@ -211,12 +207,12 @@ document.addEventListener( 'wheel', function( event ) {
 
 
 document.addEventListener( 'touchstart', function( event ) {
-	touchstartX = e.changedTouches[0].screenX
+	touchstartX = event.changedTouches[0].screenX
 }, false );
 
 
 document.addEventListener( 'touchend', function( event ) {
-	touchendX = e.changedTouches[0].screenX
+	touchendX = event.changedTouches[0].screenX
 	if (touchendX < touchstartX) {
 		k.prev();
 	}
@@ -224,14 +220,3 @@ document.addEventListener( 'touchend', function( event ) {
 		k.next();
 	}
 }, false );
-
-
-document.addEventListener('touchstart', e => {
-	touchstartX = e.changedTouches[0].screenX
-  })
-  
-  document.addEventListener('touchend', e => {
-	touchendX = e.changedTouches[0].screenX
-	checkDirection()
-  })
-  
