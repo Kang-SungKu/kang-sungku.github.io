@@ -213,10 +213,10 @@ document.addEventListener( 'touchstart', function( event ) {
 
 document.addEventListener( 'touchend', function( event ) {
 	touchendX = event.changedTouches[0].screenX
-	if (touchendX < touchstartX) {
+	if (touchendX > touchstartX) {
 		k.prev();
 	}
-	if (touchendX > touchstartX) {
+	if (touchendX < touchstartX) {
 		k.next();
 	}
 }, false );
