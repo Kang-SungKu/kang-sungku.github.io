@@ -76,34 +76,54 @@
                     <h2>Kang, SungKu <a href="doc/cv_kangsungku.pdf" target="_blank" rel="noopener noreferrer">(CV)</a>
                     </h2>
                     <p>
-                        <a href="mailto:kang.sungku@outlook.com">kang.sungku@outlook.com</a><br>
-                        XXX Hall RM000, Some University, Some City
+                        <a href="mailto:kang.sungku@kau.ac.kr">kang.sungku@kau.ac.kr</a><br>
+                        Room XXX, Mechanical Engineering Building, Korea Aerospace University, Goyang
                     </p>
 
                     <p class="lead">
-                        SungKu Kang is a Postdoctoral Fellow in Civil and Environmental Engineering at Northeastern
-                        University where his research interest lies in the integration of domain knowledge and
-                        artificial intelligence for design automation. Prior to joining the Automation for the Built and
-                        Living Environment Laboratory (ABLE) Laboratory, he worked with Dr. Ran Jin as a Postdoctoral
-                        Research Associate at the Data Science and Visualization (DSV) Laboratory at Virginia
-                        Polytechnic Institute and State University where he explored the extraction and utilization of
-                        domain-specific rules for design exploration. He received his bachelor’s degree in Mechanical
-                        and Aerospace Engineering from Seoul National University in 2012, and his Ph.D. in Mechanical
-                        Engineering from University of Illinois at Urbana-Champaign in 2017 under the supervision of
-                        Professor Debasish Dutta. In his spare time, he likes cooking with his wife.
+                        Kang, SungKu is an assistant professor in the Department of Mechanical
+                        and Aircraft System Engineering at Korea Aerospace University.
+
+                        He received his B.S. degree in Mechanical and Aerospace Engineering from
+                        Seoul National University in 2012, and his Ph.D. in Mechanical Engineering
+                        from the University of Illinois at Urbana-Champaign in 2017.
+
+                        His research interest spans both the foundations in <em>the extraction of
+                        human domain knowledge</em> in a computer-understandable form, and its application
+                        to <em>design automation</em> through <em>the integration with artificial
+                        intelligence</em>, especially <em>reinforcement learning</em>.
+                        
+                        Prior to joining Korea Aerospace University, he worked as a Postdoctoral Fellow
+                        with Dr. Michael Kane at Northeastern University and Dr. Ran Jin at Virginia Tech,
+                        where his works have been incorporated into research projects for design automation
+                        in sustainable building (e.g., stone masonry), renewable energy generation
+                        (e.g., offshore wind turbine), and personalized products.
+                        
+                        In his spare time, he likes cooking with his wife.
                     </p>
 
 
                     <p class="lead">
                     <h4>Professional Experience</h4>
                     <ul>
-                        <li>Virginia Polytechnic Institute and State University, Grado Department of Industrial and
-                            Systems Engineering, Postdoctoral Research Associate (2018-2020)</li>
-                        <li>University of Illinois at Urbana-Champaign, Department of Mechanical Science and
-                            Engineering, Graduate Research Assistant (2012-2017)</li>
-                        <li>General Electric Global Research Center, Graduate Research Internship (Summer 2015)</li>
-                        <li>Seoul National University, Department of Mechanical and Aerospace Engineering, Undergraduate
-                            Research Internship (Spring 2012)</li>
+                        <li>Korea Aerospace University,
+                            Department of Mechanical and Aircraft System Engineering,
+                            Assistant Professor (2024-)</li>
+                        <li>Northeastern University,
+                            Department of Civil and Environmental Engineering Department,
+                            Postdoctoral Research Fellow (2020-2024)</li>
+                        <li>Virginia Polytechnic Institute and State University,
+                            Grado Department of Industrial and Systems Engineering,
+                            Postdoctoral Research Associate (2018-2020)</li>
+                        <li>University of Illinois at Urbana-Champaign,
+                            Department of Mechanical Science and Engineering,
+                            Graduate Research Assistant (2012-2017)</li>
+                        <li>General Electric Global Research Center,
+                            Graduate Research Internship (Summer 2015)</li>
+                        <li>Seoul National University,
+                            Biotobotics Laboratory,
+                            Department of Mechanical and Aerospace Engineering,
+                            Undergraduate Research Internship (Spring 2012)</li>
                     </ul>
                     </p>
 
@@ -118,9 +138,9 @@
                     <p class="lead">
                     <h4>Teaching</h4>
                     <ul>
-                        <li>Course 1</li>
-                        <li>Course 2</li>
-                        <li>Course 3</li>
+                        <li>Computer-Aided Design (AM3211)</li>
+                        <li>Manufacturing Processes for Engineering Materials (AM4335)</li>
+                        <li>Mechanical Engineering Design (AM4321)</li>
                     </ul>
                     </p>
 
@@ -343,75 +363,34 @@
                                     <!-- Format for projects -->
                                     <div class="if BIBTEXTYPEKEY==PROJECT">
 
-                                        <!-- if the entity has DOI -->
-                                        <div class="if doi">
-                                            <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi"
-                                                target="_blank" rel="noopener noreferrer">
-                                                <span style="text-decoration: underline;" class="title"></span>,
+                                        <!-- if the entity have URL -->
+                                        <div class="if url">
+                                            [<span class="position"></span>
+                                                <span class="if portion">: <span class="portion"></span></span>
+                                            ]
+                                            <a class="bibtexVar" href="+URL+" extra="url" target="_blank"
+                                                rel="noopener noreferrer">
+                                                <span style="text-decoration: underline;" class="title"></span>
                                             </a>
                                         </div>
 
-                                        <!-- if the entity does not have DOI but URL -->
-                                        <div class="if !doi">
-                                            <div class="if url">
-                                                <a class="bibtexVar" href="+URL+" extra="url" target="_blank"
-                                                    rel="noopener noreferrer">
-                                                    <span style="text-decoration: underline;" class="title"></span>,
-                                                </a>
-                                            </div>
+                                        <!-- if the entity does not have URL -->
+                                        <div class="if !url">
+                                            <span class="position"></span><span class="if !portion">,</span>
+                                            <span class="if portion">(<span class="portion"></span>),</span>
+                                            <span style="text-decoration: underline;" class="title"></span>
                                         </div>
 
-                                        <!-- if the entity does not have DOI and does not have URL -->
-                                        <div class="if !doi">
-                                            <div class="if !url">
-                                                <span style="text-decoration: underline;" class="title"></span>,
-                                            </div>
-                                        </div>
-
-
-                                        <span class="if title nolink">
-                                            <span class="title"></span>,
-                                        </span>
-                                        <div class="if author">
-                                            <span class="author"></span>
-                                        </div>
+                                        <!-- rest of the information in the next line -->
                                         <div>
-                                            <span class="if journal"><em><span class="journal"></span></em>,</span>
-                                            <span class="if booktitle">In <em><span
-                                                        class="booktitle"></span></em>,</span>
-                                            <!--span class="if editor"><span class="editor"></span> (editors),</span>
-                                                                                    <span class="if publisher"><em><span class="publisher"></span></em>,</span>
-                                                                                    <span class="if !journal number">Technical report <span class="number"></span>,</span>
-                                                                                    <span class="if institution"><span class="institution"></span>,</span>
-                                                                                    <span class="if address"><span class="address"></span>,</span-->
-                                            <span class="if volume">
-                                                <span class="if number">
-                                                    <span class="volume"></span>(<span class="number"></span>),
-                                                </span>
-                                            </span>
-                                            <span class="if volume">
-                                                <span class="if !number">
-                                                    <span class="volume"></span>,
-                                                </span>
-                                            </span>
-                                            <span class="if pages">pp. <span class="pages"></span>,</span>
-                                            <!--span class="if month"><span class="month"></span>,</span-->
-                                            <span class="if year"><span class="year"></span>.</span>
-                                            <span class="if note"><span class="note"></span>.</span>
-                                            <!--a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+"
-                                                                                    aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                                                                                        [bib]
-                                                                                    </a-->
-                                        </div>
-                                        <!--div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                                                                                    <div class="well">
-                                                                                        <pre><span class="bibtexraw noread"></span></pre>
-                                                                                    </div>
-                                                                                </div-->
+                                            <span class="if amount"><span class="amount"></span>,</span>
+                                            <span class="if agency">Funded by <em><span class="agency"></span></em>,</span>
 
-                                        <div style="display:none"><span class="bibtextype"></span></div>
-                                        <div style="display:none"><span class="if topic"><span class="topic"></span></span></div>
+                                            <span class="if period"><span class="period"></span></span>
+                                            <span class="if pi_if_other">(PI: <span class="pi_if_other"></span>)</span>
+                                        </div>
                                     </div>
+
 
                                     <!-- Format for journal paper or conference paper -->
                                     <div class="if BIBTEXTYPEKEY==ARTICLE || BIBTEXTYPEKEY==INPROCEEDINGS">
@@ -419,7 +398,7 @@
                                         <div class="if doi">
                                             <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi"
                                                 target="_blank" rel="noopener noreferrer">
-                                                <span style="text-decoration: underline;" class="title"></span>,
+                                                <span style="text-decoration: underline;" class="title"></span>
                                             </a>
                                         </div>
 
@@ -428,7 +407,7 @@
                                             <div class="if url">
                                                 <a class="bibtexVar" href="+URL+" extra="url" target="_blank"
                                                     rel="noopener noreferrer">
-                                                    <span style="text-decoration: underline;" class="title"></span>,
+                                                    <span style="text-decoration: underline;" class="title"></span>
                                                 </a>
                                             </div>
                                         </div>
@@ -436,7 +415,7 @@
                                         <!-- if the entity does not have DOI and does not have URL -->
                                         <div class="if !doi">
                                             <div class="if !url">
-                                                <span style="text-decoration: underline;" class="title"></span>,
+                                                <span style="text-decoration: underline;" class="title"></span>
                                             </div>
                                         </div>
 
