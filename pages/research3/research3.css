@@ -206,7 +206,7 @@ body {
 	position: relative;
 	top: 20%;
 	margin: 0;
-	font-size: 6.25em;
+	font-size: 5.00em;
 }
 
 .layer p {
@@ -269,7 +269,7 @@ body {
 	}
 
 	.layer h2 {
-		font-size: 5em;
+		font-size: 3em;
 	}
 
 	.bullets li {
