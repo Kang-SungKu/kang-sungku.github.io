@@ -43,21 +43,21 @@
 	.container-main {
 		position: relative;
 		top: 17.5%;
-		max-width: 100%;
+		max-width: 77%;
 	}
   }
   @media (min-width: 992px) {
 	.container-main {
 		position: relative;
 		top: 15%;
-		max-width: 80%;
+		max-width: 60%;
 	}
   }
   @media (min-width: 1200px) {
 	.container-main {
 		position: relative;
 		top: 12.5%;
-		max-width: 70%;
+		max-width: 60%;
 	}
   }
   @media (min-width: 1400px) {
