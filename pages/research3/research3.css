@@ -21,37 +21,51 @@
 
   @media (min-width: 200px) {
 	.container-main {
-	  max-width: 100%;
+		position: relative;
+		top: 30%;
+	  	max-width: 100%;
 	}
   }
   @media (min-width: 400px) {
 	.container-main {
-	  max-width: 100%;
+		position: relative;
+		top: 25%;
+	    max-width: 100%;
 	}
   }
   @media (min-width: 576px) {
 	.container-main {
-	  max-width: 100%;
+		position: relative;
+		top: 20%;
+    	max-width: 100%;
 	}
   }
   @media (min-width: 768px) {
 	.container-main {
-	  max-width: 90%;
+		position: relative;
+		top: 17.5%;
+		max-width: 90%;
 	}
   }
   @media (min-width: 992px) {
 	.container-main {
-	  max-width: 80%;
+		position: relative;
+		top: 15%;
+		max-width: 80%;
 	}
   }
   @media (min-width: 1200px) {
 	.container-main {
-	  max-width: 70%;
+		position: relative;
+		top: 12.5%;
+		max-width: 70%;
 	}
   }
   @media (min-width: 1400px) {
 	.container-main {
-	  max-width: 75%;
+		position: relative;
+		top: 10%;
+		max-width: 75%;
 	}
   }
   
