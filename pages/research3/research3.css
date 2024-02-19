@@ -21,7 +21,7 @@
   @media (min-width: 200px) {
 	.container-main {
 		position: relative;
-		top: 8%;
+		top: 10%;
 	  	max-width: 100%;
 	}
   }
@@ -35,44 +35,41 @@
   @media (min-width: 576px) {
 	.container-main {
 		position: relative;
-		top: 12%;
+		top: 10%;
     	max-width: 100%;
 	}
   }
   @media (min-width: 768px) {
 	.container-main {
 		position: relative;
-		top: 14%;
+		top: 10%;
 		max-width: 77%;
 	}
   }
   @media (min-width: 992px) {
 	.container-main {
 		position: relative;
-		top: 15%;
+		top: 10%;
 		max-width: 60%;
 	}
   }
   @media (min-width: 1200px) {
 	.container-main {
 		position: relative;
-		top: 15%;
+		top: 10%;
 		max-width: 60%;
 	}
   }
   @media (min-width: 1400px) {
 	.container-main {
 		position: relative;
-		top: 15%;
+		top: 10%;
 		max-width: 60%;
 	}
   }
   
 
   .container-main h2 {
-	position: relative;
-	top: 20%;
-	margin: 0;
 	font-size: 2.5em;
 }
 
