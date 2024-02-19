@@ -21,49 +21,49 @@
   @media (min-width: 200px) {
 	.container-main {
 		position: relative;
-		top: 30%;
+		top: 20%;
 	  	max-width: 100%;
 	}
   }
   @media (min-width: 400px) {
 	.container-main {
 		position: relative;
-		top: 25%;
+		top: 17.5%;
 	    max-width: 100%;
 	}
   }
   @media (min-width: 576px) {
 	.container-main {
 		position: relative;
-		top: 20%;
+		top: 15%;
     	max-width: 100%;
 	}
   }
   @media (min-width: 768px) {
 	.container-main {
 		position: relative;
-		top: 17.5%;
+		top: 12.5%;
 		max-width: 77%;
 	}
   }
   @media (min-width: 992px) {
 	.container-main {
 		position: relative;
-		top: 15%;
+		top: 10%;
 		max-width: 60%;
 	}
   }
   @media (min-width: 1200px) {
 	.container-main {
 		position: relative;
-		top: 12.5%;
+		top: 7.5%;
 		max-width: 60%;
 	}
   }
   @media (min-width: 1400px) {
 	.container-main {
 		position: relative;
-		top: 10%;
+		top: 5%;
 		max-width: 60%;
 	}
   }
