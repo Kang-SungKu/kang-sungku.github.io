@@ -31,7 +31,7 @@
   }
   @media (min-width: 576px) {
 	.container-main {
-	  max-width: 95%;
+	  max-width: 100%;
 	}
   }
   @media (min-width: 768px) {
@@ -41,12 +41,12 @@
   }
   @media (min-width: 992px) {
 	.container-main {
-	  max-width: 85%;
+	  max-width: 80%;
 	}
   }
   @media (min-width: 1200px) {
 	.container-main {
-	  max-width: 80%;
+	  max-width: 70%;
 	}
   }
   @media (min-width: 1400px) {
