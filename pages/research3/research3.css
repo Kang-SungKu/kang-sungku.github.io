@@ -18,30 +18,40 @@
 	margin-right: auto;
 	margin-left: auto;
   }
-  
+
+  @media (min-width: 200px) {
+	.container-main {
+	  max-width: 100%;
+	}
+  }
+  @media (min-width: 400px) {
+	.container-main {
+	  max-width: 100%;
+	}
+  }
   @media (min-width: 576px) {
 	.container-main {
-	  max-width: 340px;
+	  max-width: 95%;
 	}
   }
   @media (min-width: 768px) {
 	.container-main {
-	  max-width: 520px;
+	  max-width: 90%;
 	}
   }
   @media (min-width: 992px) {
 	.container-main {
-	  max-width: 760px;
+	  max-width: 85%;
 	}
   }
   @media (min-width: 1200px) {
 	.container-main {
-	  max-width: 940px;
+	  max-width: 80%;
 	}
   }
   @media (min-width: 1400px) {
 	.container-main {
-	  max-width: 1120px;
+	  max-width: 75%;
 	}
   }
   
