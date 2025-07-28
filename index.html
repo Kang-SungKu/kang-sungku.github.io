@@ -41,6 +41,7 @@
                     class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
                     <li class="nav-item"><a class="nav-link" href="#pi">PI</a></li>
                     <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
                     <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
@@ -65,100 +66,164 @@
     </header>
 
 
+    <!-- News section-->
+    <section class="bg-light" id="news">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>News</h2>
+                    <div class="news-box">
+                        <!-- <p><b>[2024.07.25]</b> Our paper on reinforcement learning has been accepted to 'Journal of AI Research'!</p> -->
+                        <!-- <p><b>[2024.06.15]</b> Min-jun Kim won the Best Paper Award at the KAU Annual Conference.</p> -->
+                        <!-- [YYYY.MM.DD] Congratulations to Minjun Kim (M.S. student) for presenting his work on 'Design Automation using Reinforcement Learning' at the KSME 2025 Spring Annual Meeting!  [YYYY.MM.DD] Our paper on 'Knowledge Extraction using Generative AI' by Sujin Lee (Ph.D. student) has been accepted to the Journal of Machine Learning Research (JCR Top 10%). Congrats! -->
+                        <!-- [YYYY.MM.DD] Congratulations to our alumnus Seojun Park (M.S. '25) for joining the R&D Division at Hyundai Motor Company as a researcher! -->
+                        <!-- [YYYY.MM.DD] Prof. Kang has been awarded a Young Researcher Program grant from the National Research Foundation of Korea (NRF) for his project on digital twin-based design optimization. -->
+                        <p><b>[2025.07.25]</b> Welcome new undergraduate researcher, Sieun Park!</p>
+                        <p><b>[2025.07.07]</b> Congratulations to our alumnus Jinwoo Kim (B.S. '25) for joining Hanwha Aerospace!</p>
+                        <p><b>[2025.07.01]</b> Welcome new undergraduate researchers, Dosol Park and Hojin Park!</p>
+                        <p><b>[2025.05.09]</b> Sangwon Kang, Jinwoo Choi, and Wonseok Choi presented their works at <a href="https://ksme.or.kr/Conference/ConferenceView.asp?top_param=1&sub_param=4&AC=3&CODE=C320250207&B_CATE=BBC1">2025 Spring Conference of KSME IT-Intelligence Convergence Division</a>!</p>
+                        <p><b>[2025.04.30]</b> Welcome new undergraduate researcher, Seokhwa Lee!</p>
+                        <p><b>[2025.04.24]</b> Prof. Kang presented his works at <a href="https://www.jsme.or.jp/conference/icmdt2025/">ICMDT2025</a>!</p>
+                        <p><b>[2025.01.13]</b> Welcome new undergraduate researcher, Jinwoo Kim!</p>
+                        <p><b>[2025.01.01]</b> Welcome new undergraduate researcher, Wonseok Choi!</p>
+                        <p><b>[2024.11.07]</b> Prof. Kang presented his works at <a href="https://ksme.or.kr/Conference/ConferenceView.asp?top_param=1&sub_param=1&AC=0&CODE=C020240501&B_CATE=BBC1">KSME Annual Meeting 2024</a>!</p>
+                        <p><b>[2024.09.09]</b> Welcome new undergraduate researcher, Sangwon Kang!</p>
+                        <p><b>[2024.03.01]</b> The IDOL Lab is officially launched!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- PI section-->
     <section id="pi">
         <div class="container px-4">
             <div class="row gx-4 justify-content-center">
                 <div class="col-lg-8">
 
-                    <div class="profile-img-big">
-                        <img src="img/profile_suit.jpg" alt="Kang, SungKu">
+
+                    <div class="card">
+                        <div class="card-header" id="headingPi">
+                            <h2 class="mb-0">
+                                <a class="btn-link" data-bs-toggle="collapse" href="#collapsePi" aria-expanded="false" aria-controls="collapsePi">
+                                    PI (Principal Investigator)
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapsePi" class="collapse" aria-labelledby="headingPi">
+                            <div class="card-body">
+                                
+
+
+
+                                <div class="profile-img-big">
+                                    <img src="img/profile_suit.jpg" alt="Kang, SungKu">
+                                </div>
+
+                                <h3>
+                                    Kang, SungKu
+                                    (<a href="doc/cv_kangsungku.pdf" target="_blank" rel="noopener noreferrer">CV</a>)
+                                </h3><br>
+
+                                <h4>Contacts</h4>
+                                <ul>
+                                    <li><b>Email:</b> <a href="mailto:kang.sungku@kau.ac.kr">kang.sungku@kau.ac.kr</a></li>
+                                    <li><b>Phone:</b> 02-300-0176</li>
+                                    <li><b>Office:</b> Room 403, Mechanical Engineering Building, Korea Aerospace University, Goyang</li>
+                                </ul>
+
+                                <p>
+                                    <strong>Kang, SungKu</strong> is an assistant professor in the College of Engineering
+                                    (Mechanical Engineering Program) at Korea Aerospace University.
+
+                                    He received his B.S. degree in Mechanical and Aerospace Engineering from
+                                    Seoul National University in 2012, and his Ph.D. in Mechanical Engineering
+                                    from the University of Illinois at Urbana-Champaign in 2017.
+                                </p>
+
+                                <p>
+                                    His research interest spans both the foundations in the extraction of
+                                    <strong>human domain knowledge</strong> in a computer-understandable form, and
+                                    its application to <strong>design automation</strong> through the integration with
+                                    <strong>artificial intelligence</strong>, especially <strong>reinforcement learning</strong>.
+                                </p>
+
+                                <p>
+                                    Prior to joining Korea Aerospace University,
+                                    he worked at Northeastern University and Virginia Tech,
+                                    where he contributed to research projects in design automation for
+                                    <strong>sustainable building</strong> (e.g., stone masonry),
+                                    <strong>renewable energy generation</strong> (e.g., offshore wind turbine), and
+                                    <strong>personalized products</strong>.
+                                    
+                                    In his spare time, he likes cooking with his wife.
+                                </p>
+                                <!--div style="line-height:75%;"><br></div-->
+
+                                <p>
+                                    <h4>Professional Experience</h4>
+                                    <ul>
+                                        <li>Korea Aerospace University,
+                                            College of Engineering (Mechanical Engineering Program),
+                                            Assistant Professor (2024-)</li>
+                                        <li>Northeastern University,
+                                            Department of Civil and Environmental Engineering Department,
+                                            Postdoctoral Research Fellow (2020-2024)</li>
+                                        <li>Virginia Polytechnic Institute and State University,
+                                            Grado Department of Industrial and Systems Engineering,
+                                            Postdoctoral Research Associate (2018-2020)</li>
+                                        <!--li>University of Illinois at Urbana-Champaign,
+                                            Department of Mechanical Science and Engineering,
+                                            Graduate Research Assistant (2012-2017)</li-->
+                                        <li>General Electric Global Research Center,
+                                            Graduate Research Internship (Summer 2015)</li>
+                                        <!--li>Seoul National University,
+                                            Biotobotics Laboratory,
+                                            Department of Mechanical and Aerospace Engineering,
+                                            Undergraduate Research Internship (Spring 2012)</li-->
+                                    </ul>
+                                </p>
+
+                                <p>
+                                    <h4>Education</h4>
+                                    <ul>
+                                        <li>Ph.D., Mechanical Engineering, University of Illinois at Urbana-Champaign, 2017</li>
+                                        <li>B.S., Mechanical and Aerospace Engineering, Seoul National University, 2012</li>
+                                    </ul>
+                                </p>
+
+                                <p>
+                                    <h4>Teaching</h4>
+                                    <ul>
+                                        <li>Computer-Aided Design</li>
+                                        <li>Manufacturing Processes for Engineering Materials</li>
+                                        <li>Machine Elements Design</li>
+                                        <li>Mechanical Machining System</li>
+                                        <li>CAD/CAM</li>
+                                        <li>Engineering Experiments</li>
+                                        <li>Capstone Design</li>
+                                    </ul>
+                                </p>
+
+                            
+
+
+
+                            </div>
+                        </div>
                     </div>
 
-                    <h3>
-                        Kang, SungKu
-                        (<a href="doc/cv_kangsungku.pdf" target="_blank" rel="noopener noreferrer">CV</a>)
-                    </h3><br>
 
-                    <h4>Contacts</h4>
-                    <ul>
-                        <li><b>Email:</b> <a href="mailto:kang.sungku@kau.ac.kr">kang.sungku@kau.ac.kr</a></li>
-                        <li><b>Phone:</b> 02-300-0176</li>
-                        <li><b>Office:</b> Room 403, Mechanical Engineering Building, Korea Aerospace University, Goyang</li>
-                    </ul>
 
-                    <p>
-                        <strong>Kang, SungKu</strong> is an assistant professor in the College of Engineering
-                        (Mechanical Engineering Program) at Korea Aerospace University.
 
-                        He received his B.S. degree in Mechanical and Aerospace Engineering from
-                        Seoul National University in 2012, and his Ph.D. in Mechanical Engineering
-                        from the University of Illinois at Urbana-Champaign in 2017.
-                    </p>
 
-                    <p>
-                        His research interest spans both the foundations in the extraction of
-                        <strong>human domain knowledge</strong> in a computer-understandable form, and
-                        its application to <strong>design automation</strong> through the integration with
-                        <strong>artificial intelligence</strong>, especially <strong>reinforcement learning</strong>.
-                    </p>
 
-                    <p>
-                        Prior to joining Korea Aerospace University,
-                        he worked at Northeastern University and Virginia Tech,
-                        where he contributed to research projects in design automation for
-                        <strong>sustainable building</strong> (e.g., stone masonry),
-                        <strong>renewable energy generation</strong> (e.g., offshore wind turbine), and
-                        <strong>personalized products</strong>.
-                        
-                        In his spare time, he likes cooking with his wife.
-                    </p>
-                    <!--div style="line-height:75%;"><br></div-->
+                
 
-                    <p>
-                        <h4>Professional Experience</h4>
-                        <ul>
-                            <li>Korea Aerospace University,
-                                College of Engineering (Mechanical Engineering Program),
-                                Assistant Professor (2024-)</li>
-                            <li>Northeastern University,
-                                Department of Civil and Environmental Engineering Department,
-                                Postdoctoral Research Fellow (2020-2024)</li>
-                            <li>Virginia Polytechnic Institute and State University,
-                                Grado Department of Industrial and Systems Engineering,
-                                Postdoctoral Research Associate (2018-2020)</li>
-                            <!--li>University of Illinois at Urbana-Champaign,
-                                Department of Mechanical Science and Engineering,
-                                Graduate Research Assistant (2012-2017)</li-->
-                            <li>General Electric Global Research Center,
-                                Graduate Research Internship (Summer 2015)</li>
-                            <!--li>Seoul National University,
-                                Biotobotics Laboratory,
-                                Department of Mechanical and Aerospace Engineering,
-                                Undergraduate Research Internship (Spring 2012)</li-->
-                        </ul>
-                    </p>
 
-                    <p>
-                        <h4>Education</h4>
-                        <ul>
-                            <li>Ph.D., Mechanical Engineering, University of Illinois at Urbana-Champaign, 2017</li>
-                            <li>B.S., Mechanical and Aerospace Engineering, Seoul National University, 2012</li>
-                        </ul>
-                    </p>
 
-                    <p>
-                        <h4>Teaching</h4>
-                        <ul>
-                            <li>Computer-Aided Design</li>
-                            <li>Manufacturing Processes for Engineering Materials</li>
-                            <li>Machine Elements Design</li>
-                            <li>Mechanical Machining System</li>
-                            <li>CAD/CAM</li>
-                            <li>Engineering Experiments</li>
-                            <li>Capstone Design</li>
-                        </ul>
-                    </p>
+
 
                 </div>
             </div>
@@ -171,59 +236,82 @@
         <div class="container px-4">
             <div class="row gx-4 justify-content-center">
                 <div class="col-lg-8">
-                    <h2>Research Topics</h2>
-
-                    <p>
-                        <h4>Integration of Domain Knowledge with Artificial Intelligence</h4>
-                        <div class="topic1-img">
-                            <a href="pages/research/research1.html" target="_blank" rel="noopener noreferrer">Click for
-                                more details!</a>
+                    
+                    <div class="card">
+                        <div class="card-header" id="headingPi">
+                            <h2 class="mb-0">
+                                <a class="btn-link" data-bs-toggle="collapse" href="#collapseResearch" aria-expanded="false" aria-controls="collapseResearch">
+                                    Research Topics
+                                </a>
+                            </h2>
                         </div>
-                        Artificial intelligence is being adopted for important tasks
-                        in design and manufacturing, but not yet deeply integrated with
-                        the domain knowledge to guide the holistic design process.
-                        This is because <strong>a considerable amount of domain knowledge
-                        is maintained in a format not readily understandable by a computer</strong>.
-                        To integrate insightful domain knowledge with artificial intelligence
-                        for design automation, this research aims at <strong>utilizing
-                        natural language processing and generative models to extract domain
-                        knowledge in a computer-understandable form</strong>.
-                    </p> <br> <br>
+                        <div id="collapseResearch" class="collapse" aria-labelledby="headingPi">
+                            <div class="card-body">
+                            
 
-                    <p>
-                        <h4>Holistic Design Automation via Reinforcement Learning</h4>
-                        <div class="topic2-img">
-                            <a href="pages/research/research2.html" target="_blank" rel="noopener noreferrer">Click for
-                                more details!</a>
-                        </div>
-                        Currently, supply chain, product, and controller design involve
-                        <strong>separate design iterations rather than a holistic design paradigm</strong>,
-                        thus limiting the efficiency of the entire design process.
-                        Founded upon reinforcement learning, Google AlphaStar mastered
-                        the real-time strategy game StarCraft II, and demonstrated
-                        a holistic model that enables prompt and flexible decision-making in
-                        resource harvesting, unit production, and real-time strategic control,
-                        where each of the tasks is analogous to supply chain, product, and
-                        controller design respectively.
-                        Inspired by the success of reinforcement learning, the objective of
-                        this research is <strong>to realize holistic design of supply chain,
-                        product, and controller through reinforcement learning</strong>.
-                    </p> <br> <br>
+                                <p>
+                                    <h4>Integration of Domain Knowledge with Artificial Intelligence</h4>
+                                    <div class="topic1-img">
+                                        <a href="pages/research/research1.html" target="_blank" rel="noopener noreferrer">Click for
+                                            more details!</a>
+                                    </div>
+                                    Artificial intelligence is being adopted for important tasks
+                                    in design and manufacturing, but not yet deeply integrated with
+                                    the domain knowledge to guide the holistic design process.
+                                    This is because <strong>a considerable amount of domain knowledge
+                                    is maintained in a format not readily understandable by a computer</strong>.
+                                    To integrate insightful domain knowledge with artificial intelligence
+                                    for design automation, this research aims at <strong>utilizing
+                                    natural language processing and generative models to extract domain
+                                    knowledge in a computer-understandable form</strong>.
+                                </p> <br> <br>
 
-                    <p>
-                        <h4>Design Automation for Sustainablility</h4>
-                        <div class="topic3-img">
-                            <a href="pages/research/research3.html" target="_blank" rel="noopener noreferrer">Click for
-                                more details!</a>
+                                <p>
+                                    <h4>Holistic Design Automation via Reinforcement Learning</h4>
+                                    <div class="topic2-img">
+                                        <a href="pages/research/research2.html" target="_blank" rel="noopener noreferrer">Click for
+                                            more details!</a>
+                                    </div>
+                                    Currently, supply chain, product, and controller design involve
+                                    <strong>separate design iterations rather than a holistic design paradigm</strong>,
+                                    thus limiting the efficiency of the entire design process.
+                                    Founded upon reinforcement learning, Google AlphaStar mastered
+                                    the real-time strategy game StarCraft II, and demonstrated
+                                    a holistic model that enables prompt and flexible decision-making in
+                                    resource harvesting, unit production, and real-time strategic control,
+                                    where each of the tasks is analogous to supply chain, product, and
+                                    controller design respectively.
+                                    Inspired by the success of reinforcement learning, the objective of
+                                    this research is <strong>to realize holistic design of supply chain,
+                                    product, and controller through reinforcement learning</strong>.
+                                </p> <br> <br>
+
+                                <p>
+                                    <h4>Design Automation for Sustainablility</h4>
+                                    <div class="topic3-img">
+                                        <a href="pages/research/research3.html" target="_blank" rel="noopener noreferrer">Click for
+                                            more details!</a>
+                                    </div>
+                                    Stone masonry with locally sourced natural stones is considered as
+                                    a sustainable form of construction. However, its adoption is limited,
+                                    as <strong>it is challenging to determine a proper sequence of natural
+                                    stones with random sizes/shapes in real time</strong>. Inspired by
+                                    the analogy between stone masonry and the classic game of Tetris,
+                                    Tetris AI is customized to <strong>autonomously learn stone masonry
+                                    design in a virtual environment by playing Tetris-like games</strong>.
+                                </p>
+
+
+
+
+                            </div>
                         </div>
-                        Stone masonry with locally sourced natural stones is considered as
-                        a sustainable form of construction. However, its adoption is limited,
-                        as <strong>it is challenging to determine a proper sequence of natural
-                        stones with random sizes/shapes in real time</strong>. Inspired by
-                        the analogy between stone masonry and the classic game of Tetris,
-                        Tetris AI is customized to <strong>autonomously learn stone masonry
-                        design in a virtual environment by playing Tetris-like games</strong>.
-                    </p>
+                    </div>
+
+
+
+
+
 
                 </div>
             </div>
@@ -237,87 +325,102 @@
             <div class="row gx-4 justify-content-center">
                 <div class="col-lg-8">
 
-                    <h2>Team</h2>
-                    <p>Become a member of IDOL Lab!</h2>
 
-                    <!-- Active members -->
-                    <!--p>
-                        <div class="profile-img-small">
-                            <img src="img/profile_suit.jpg" alt="student2">
+                    <div class="card">
+                        <div class="card-header" id="headingPi">
+                            <h2 class="mb-0">
+                                <a class="btn-link" data-bs-toggle="collapse" href="#collapseTeam" aria-expanded="false" aria-controls="collapseTeam">
+                                    Team
+                                </a>
+                            </h2>
                         </div>
-                        <h4>
-                            Graduate student 1
-                            (<a href="doc/cv_kangsungku.pdf" target="_blank" rel="noopener noreferrer">CV</a>,
-                            <a href="mailto:student_g1@kau.ac.kr">Email</a>)
-                        </h4>
-                        <strong>Graduate student 1</strong> is a Ph.D. student in
-                        the Department of Mechanical and Aircraft System Engineering at
-                        Korea Aerospace University, where he/she joined the IDOL lab at 20XX.
-                        Graduate student 1 has a broad research interest in <strong>XXX</strong>,
-                        with a special interest in <strong>YYY</strong>. 
-                        <div style="line-height:75%;"><br></div>
-                        <h5>Education</h5>
-                        <ul>
-                            <li>M.S., XXX, XXX University, 20XX</li>
-                            <li>B.S., XXX, XXX University, 20XX</li>
-                            </ul>
-                    </p>
-                    <br>
+                        <div id="collapseTeam" class="collapse" aria-labelledby="headingPi">
+                            <div class="card-body">
+                                <p>Become a member of IDOL Lab!</h2>
+                                <!-- Active members -->
+                                <!--p>
+                                    <div class="profile-img-small">
+                                        <img src="img/profile_suit.jpg" alt="student2">
+                                    </div>
+                                    <h4>
+                                        Graduate student 1
+                                        (<a href="doc/cv_kangsungku.pdf" target="_blank" rel="noopener noreferrer">CV</a>,
+                                        <a href="mailto:student_g1@kau.ac.kr">Email</a>)
+                                    </h4>
+                                    <strong>Graduate student 1</strong> is a Ph.D. student in
+                                    the Department of Mechanical and Aircraft System Engineering at
+                                    Korea Aerospace University, where he/she joined the IDOL lab at 20XX.
+                                    Graduate student 1 has a broad research interest in <strong>XXX</strong>,
+                                    with a special interest in <strong>YYY</strong>. 
+                                    <div style="line-height:75%;"><br></div>
+                                    <h5>Education</h5>
+                                    <ul>
+                                        <li>M.S., XXX, XXX University, 20XX</li>
+                                        <li>B.S., XXX, XXX University, 20XX</li>
+                                        </ul>
+                                </p>
+                                <br>
 
-                    <p>
-                        <div class="profile-img-small">
-                            <img src="img/profile_suit.jpg" alt="student2">
+                                <p>
+                                    <div class="profile-img-small">
+                                        <img src="img/profile_suit.jpg" alt="student2">
+                                    </div>
+                                    <h4>
+                                        Graduate student 2
+                                        (<a href="doc/cv_kangsungku.pdf" target="_blank" rel="noopener noreferrer">CV</a>,
+                                        <a href="mailto:student_g2@kau.ac.kr">Email</a>)
+                                    </h4>
+                                    <strong>Graduate student 2</strong> is a M.S. student in
+                                    the Department of Mechanical and Aircraft System Engineering at
+                                    Korea Aerospace University, where he/she joined the IDOL lab at 20XX.
+                                    Graduate student 2 has a broad research interest in <strong>XXX</strong>,
+                                    with a special interest in <strong>YYY</strong>. 
+                                    <div style="line-height:75%;"><br></div>
+                                    <h5>Education</h5>
+                                    <ul>
+                                        <li>B.S., XXX, XXX University, 20XX</li>
+                                    </ul>
+                                </p>
+                                <br>
+
+
+                                <p>
+                                    <div class="profile-img-small">
+                                        <img src="img/profile_suit.jpg" alt="student3">
+                                    </div>
+                                    <h4>
+                                        Undergraduate student 1
+                                        (<a href="doc/cv_kangsungku.pdf" target="_blank" rel="noopener noreferrer">CV</a>,
+                                        <a href="mailto:student_u1@kau.ac.kr">Email</a>)
+                                    </h4>
+                                        <strong>Undergraduate student 1</strong> is an undergraduate student in
+                                        the Department of Mechanical and Aircraft System Engineering at
+                                        Korea Aerospace University, where he/she joined the IDOL lab at 20XX.
+                                        Undergraduate student 1 has a broad research interest in <strong>XXX</strong>,
+                                        with a special interest in <strong>YYY</strong>. 
+                                    <br>
+                                </p-->
+
+                                <!-- Alumni -->
+                                <!--p>
+                                    <details>
+                                        <summary>
+                                            <h5>Alumni (Click to expand)</h5>
+                                        </summary>
+                                        <ul>
+                                            <li>Become the first alumnus of the IDOL lab!</li>
+                                            <li>Alumni 1 (PhD, 20XX)</li>
+                                            <li>Alumni 2 (MS, 20XX)</li>
+                                            <li>Alumni 3 (BS, 20XX)</li>
+                                        </ul>
+                                    </details>
+                                </p-->
+                            </div>
                         </div>
-                        <h4>
-                            Graduate student 2
-                            (<a href="doc/cv_kangsungku.pdf" target="_blank" rel="noopener noreferrer">CV</a>,
-                            <a href="mailto:student_g2@kau.ac.kr">Email</a>)
-                        </h4>
-                        <strong>Graduate student 2</strong> is a M.S. student in
-                        the Department of Mechanical and Aircraft System Engineering at
-                        Korea Aerospace University, where he/she joined the IDOL lab at 20XX.
-                        Graduate student 2 has a broad research interest in <strong>XXX</strong>,
-                        with a special interest in <strong>YYY</strong>. 
-                        <div style="line-height:75%;"><br></div>
-                        <h5>Education</h5>
-                        <ul>
-                            <li>B.S., XXX, XXX University, 20XX</li>
-                        </ul>
-                    </p>
-                    <br>
+                    </div>
 
+                    
 
-                    <p>
-                        <div class="profile-img-small">
-                            <img src="img/profile_suit.jpg" alt="student3">
-                        </div>
-                        <h4>
-                            Undergraduate student 1
-                            (<a href="doc/cv_kangsungku.pdf" target="_blank" rel="noopener noreferrer">CV</a>,
-                            <a href="mailto:student_u1@kau.ac.kr">Email</a>)
-                        </h4>
-                            <strong>Undergraduate student 1</strong> is an undergraduate student in
-                            the Department of Mechanical and Aircraft System Engineering at
-                            Korea Aerospace University, where he/she joined the IDOL lab at 20XX.
-                            Undergraduate student 1 has a broad research interest in <strong>XXX</strong>,
-                            with a special interest in <strong>YYY</strong>. 
-                        <br>
-                    </p-->
-
-                    <!-- Alumni -->
-                    <!--p>
-                        <details>
-                            <summary>
-                                <h5>Alumni (Click to expand)</h5>
-                            </summary>
-                            <ul>
-                                <li>Become the first alumnus of the IDOL lab!</li>
-                                <li>Alumni 1 (PhD, 20XX)</li>
-                                <li>Alumni 2 (MS, 20XX)</li>
-                                <li>Alumni 3 (BS, 20XX)</li>
-                            </ul>
-                        </details>
-                    </p-->
 
                 </div>
 
@@ -333,164 +436,185 @@
             <div class="row gx-4 justify-content-center">
                 <div class="col-lg-8">
 
-                    <h2>Research Output</h2>
 
-                    <!-- Citation entities grouped by Type and then Year -->
-                    <div class="bibtex_structure">
-                        <div class="sections bibtextypekey">
-                            <p>
-                            <div class="section project">
-                                <h4>Projects</h4>
-                                <div class="sort year" extra="DSC number">
-                                    <div class="templates"></div>
-                                </div>
-                            </div>
-                            </p>
+                    <div class="card">
+                        <div class="card-header" id="headingPi">
+                            <h2 class="mb-0">
+                                <a class="btn-link" data-bs-toggle="collapse" href="#collapseOutput" aria-expanded="false" aria-controls="collapseOutput">
+                                    Research Output
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseOutput" class="collapse" aria-labelledby="headingPi">
+                            <div class="card-body">
+                                
+                                <!-- Citation entities grouped by Type and then Year -->
+                                <div class="bibtex_structure">
+                                    <div class="sections bibtextypekey">
+                                        <p>
+                                        <div class="section project">
+                                            <h4>Projects</h4>
+                                            <div class="sort year" extra="DSC number">
+                                                <div class="templates"></div>
+                                            </div>
+                                        </div>
+                                        </p>
 
-                            <p>
-                            <div class="section article">
-                                <h4>Journal papers</h4>
-                                <div class="sort year" extra="DSC number">
-                                    <div class="templates"></div>
-                                </div>
-                            </div>
-                            </p>
+                                        <p>
+                                        <div class="section article">
+                                            <h4>Journal papers</h4>
+                                            <div class="sort year" extra="DSC number">
+                                                <div class="templates"></div>
+                                            </div>
+                                        </div>
+                                        </p>
 
-                            <p>
-                            <div class="section inproceedings">
-                                <h4>Conference Proceedings</h4>
-                                <div class="sort year" extra="DSC number">
-                                    <div class="templates"></div>
-                                </div>
-                            </div>
-                            </p>
+                                        <p>
+                                        <div class="section inproceedings">
+                                            <h4>Conference Proceedings</h4>
+                                            <div class="sort year" extra="DSC number">
+                                                <div class="templates"></div>
+                                            </div>
+                                        </div>
+                                        </p>
 
-                            <p>
-                            <div class="section book|misc|phdthesis|mastersthesis|bachelorsthesis|techreport">
-                                <h1>Other Publications</h1>
-                                <div class="sort year" extra="DSC number">
-                                    <div class="templates"></div>
+                                        <p>
+                                        <div class="section book|misc|phdthesis|mastersthesis|bachelorsthesis|techreport">
+                                            <h1>Other Publications</h1>
+                                            <div class="sort year" extra="DSC number">
+                                                <div class="templates"></div>
+                                            </div>
+                                        </div>
+                                        </p>
+                                    </div>
                                 </div>
+
+
+
+                                <!-- Citation format -->
+                                <div id="bibtex_display">
+                                    <div class="if bibtex_template" style="display: none;">
+                                        <ul>
+                                            <li>
+                                                <!-- Format for projects -->
+                                                <div class="if BIBTEXTYPEKEY==PROJECT">
+
+                                                    <!-- if the entity have URL -->
+                                                    <div class="if url">
+                                                        <span class="position"></span><span class="if !portion">,</span>
+                                                        <span class="if portion">(<span class="portion"></span>),</span>
+                                                        <a class="bibtexVar" href="+URL+" extra="url" target="_blank"
+                                                            rel="noopener noreferrer">
+                                                            <span style="text-decoration: underline; font-weight: 625;" class="title"></span>
+                                                        </a>
+                                                    </div>
+
+                                                    <!-- if the entity does not have URL -->
+                                                    <div class="if !url">
+                                                        <span class="position"></span><span class="if !portion">,</span>
+                                                        <span class="if portion">(<span class="portion"></span>),</span>
+                                                        <span style="text-decoration: underline; font-weight: 625;" class="title"></span>
+                                                    </div>
+
+                                                    <!-- rest of the information in the next line -->
+                                                    <div>
+                                                        <span class="if amount"><span class="amount"></span>,</span>
+                                                        <span class="if agency">Funded by <em><span class="agency"></span></em>,</span>
+
+                                                        <span class="if period"><span class="period"></span></span>
+                                                        <span class="if pi_if_other">(PI: <span class="pi_if_other"></span>)</span>
+                                                    </div>
+                                                </div>
+
+
+                                                <!-- Format for journal paper or conference paper -->
+                                                <div class="if BIBTEXTYPEKEY==ARTICLE || BIBTEXTYPEKEY==INPROCEEDINGS">
+                                                    <!-- if the entity has DOI -->
+                                                    <div class="if doi">
+                                                        <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi"
+                                                            target="_blank" rel="noopener noreferrer">
+                                                            <span style="text-decoration: underline; font-weight: 625;" class="title"></span>
+                                                        </a>
+                                                    </div>
+
+                                                    <!-- if the entity does not have DOI but URL -->
+                                                    <div class="if !doi">
+                                                        <div class="if url">
+                                                            <a class="bibtexVar" href="+URL+" extra="url" target="_blank"
+                                                                rel="noopener noreferrer">
+                                                                <span style="text-decoration: underline; font-weight: 625;" class="title"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- if the entity does not have DOI and does not have URL -->
+                                                    <div class="if !doi">
+                                                        <div class="if !url">
+                                                            <span style="text-decoration: underline; font-weight: 625;" class="title"></span>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <span class="if title nolink">
+                                                        <span class="title"></span>,
+                                                    </span>
+                                                    <div class="if author">
+                                                        <span class="author"></span>
+                                                    </div>
+                                                    <div>
+                                                        <span class="if journal"><em><span class="journal"></span></em>,</span>
+                                                        <span class="if booktitle">In <em><span
+                                                                    class="booktitle"></span></em>,</span>
+                                                        <!--span class="if editor"><span class="editor"></span> (editors),</span>
+                                                        <span class="if publisher"><em><span class="publisher"></span></em>,</span>
+                                                        <span class="if !journal number">Technical report <span class="number"></span>,</span>
+                                                        <span class="if institution"><span class="institution"></span>,</span>
+                                                        <span class="if address"><span class="address"></span>,</span-->
+                                                        <span class="if volume">
+                                                            <span class="if number">
+                                                                <span class="volume"></span>(<span class="number"></span>),
+                                                            </span>
+                                                        </span>
+                                                        <span class="if volume">
+                                                            <span class="if !number">
+                                                                <span class="volume"></span>,
+                                                            </span>
+                                                        </span>
+                                                        <span class="if pages">pp. <span class="pages"></span>,</span>
+                                                        <!--span class="if month"><span class="month"></span>,</span-->
+                                                        <span class="if year"><span class="year"></span>.</span>
+                                                        <span class="if note"><span class="note"></span>.</span>
+                                                        <!--a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+"
+                                                        aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+                                                            [bib]
+                                                        </a-->
+                                                    </div>
+                                                    <!--div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+                                                        <div class="well">
+                                                            <pre><span class="bibtexraw noread"></span></pre>
+                                                        </div>
+                                                    </div-->
+
+                                                    <div style="display:none"><span class="bibtextype"></span></div>
+                                                    <div style="display:none"><span class="if topic"><span
+                                                                class="topic"></span></span></div>
+                                                </div>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+
                             </div>
-                            </p>
                         </div>
                     </div>
 
 
 
-                    <!-- Citation format -->
-                    <div id="bibtex_display">
-                        <div class="if bibtex_template" style="display: none;">
-                            <ul>
-                                <li>
-                                    <!-- Format for projects -->
-                                    <div class="if BIBTEXTYPEKEY==PROJECT">
-
-                                        <!-- if the entity have URL -->
-                                        <div class="if url">
-                                            <span class="position"></span><span class="if !portion">,</span>
-                                            <span class="if portion">(<span class="portion"></span>),</span>
-                                            <a class="bibtexVar" href="+URL+" extra="url" target="_blank"
-                                                rel="noopener noreferrer">
-                                                <span style="text-decoration: underline; font-weight: 625;" class="title"></span>
-                                            </a>
-                                        </div>
-
-                                        <!-- if the entity does not have URL -->
-                                        <div class="if !url">
-                                            <span class="position"></span><span class="if !portion">,</span>
-                                            <span class="if portion">(<span class="portion"></span>),</span>
-                                            <span style="text-decoration: underline; font-weight: 625;" class="title"></span>
-                                        </div>
-
-                                        <!-- rest of the information in the next line -->
-                                        <div>
-                                            <span class="if amount"><span class="amount"></span>,</span>
-                                            <span class="if agency">Funded by <em><span class="agency"></span></em>,</span>
-
-                                            <span class="if period"><span class="period"></span></span>
-                                            <span class="if pi_if_other">(PI: <span class="pi_if_other"></span>)</span>
-                                        </div>
-                                    </div>
 
 
-                                    <!-- Format for journal paper or conference paper -->
-                                    <div class="if BIBTEXTYPEKEY==ARTICLE || BIBTEXTYPEKEY==INPROCEEDINGS">
-                                        <!-- if the entity has DOI -->
-                                        <div class="if doi">
-                                            <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi"
-                                                target="_blank" rel="noopener noreferrer">
-                                                <span style="text-decoration: underline; font-weight: 625;" class="title"></span>
-                                            </a>
-                                        </div>
-
-                                        <!-- if the entity does not have DOI but URL -->
-                                        <div class="if !doi">
-                                            <div class="if url">
-                                                <a class="bibtexVar" href="+URL+" extra="url" target="_blank"
-                                                    rel="noopener noreferrer">
-                                                    <span style="text-decoration: underline; font-weight: 625;" class="title"></span>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <!-- if the entity does not have DOI and does not have URL -->
-                                        <div class="if !doi">
-                                            <div class="if !url">
-                                                <span style="text-decoration: underline; font-weight: 625;" class="title"></span>
-                                            </div>
-                                        </div>
-
-
-                                        <span class="if title nolink">
-                                            <span class="title"></span>,
-                                        </span>
-                                        <div class="if author">
-                                            <span class="author"></span>
-                                        </div>
-                                        <div>
-                                            <span class="if journal"><em><span class="journal"></span></em>,</span>
-                                            <span class="if booktitle">In <em><span
-                                                        class="booktitle"></span></em>,</span>
-                                            <!--span class="if editor"><span class="editor"></span> (editors),</span>
-                                            <span class="if publisher"><em><span class="publisher"></span></em>,</span>
-                                            <span class="if !journal number">Technical report <span class="number"></span>,</span>
-                                            <span class="if institution"><span class="institution"></span>,</span>
-                                            <span class="if address"><span class="address"></span>,</span-->
-                                            <span class="if volume">
-                                                <span class="if number">
-                                                    <span class="volume"></span>(<span class="number"></span>),
-                                                </span>
-                                            </span>
-                                            <span class="if volume">
-                                                <span class="if !number">
-                                                    <span class="volume"></span>,
-                                                </span>
-                                            </span>
-                                            <span class="if pages">pp. <span class="pages"></span>,</span>
-                                            <!--span class="if month"><span class="month"></span>,</span-->
-                                            <span class="if year"><span class="year"></span>.</span>
-                                            <span class="if note"><span class="note"></span>.</span>
-                                            <!--a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+"
-                                            aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                                                [bib]
-                                            </a-->
-                                        </div>
-                                        <!--div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                                            <div class="well">
-                                                <pre><span class="bibtexraw noread"></span></pre>
-                                            </div>
-                                        </div-->
-
-                                        <div style="display:none"><span class="bibtextype"></span></div>
-                                        <div style="display:none"><span class="if topic"><span
-                                                    class="topic"></span></span></div>
-                                    </div>
-
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
 
 
                 </div>
@@ -505,6 +629,7 @@
             <p class="m-0 text-center text-white">Copyright &copy; Intelligent Design, Optimization, and Learning (IDOL) Laboratory 2024</p>
         </div>
     </footer>
+
 </body>
 
 </html>
